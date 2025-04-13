@@ -1,0 +1,60 @@
+* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff6699, #6600cc);
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  }
+  
+  .botoes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  #sim {
+    background-color: #00cc66;
+    color: white;
+  }
+  
+  #nao {
+    background-color: #cc0033;
+    color: white;
+    position: relative;
+  }
+  
+  #mensagem {
+    margin-top: 40px;
+    font-size: 2em;
+    color: yellow;
+    display: none;
+  }
+  
